@@ -34,7 +34,7 @@ public class GameBooth {
 		Random rand = new Random();
 	 	
 	 	/* play game */
-	 	for (int i = 0; i < 3; i++) {	//player gets three tries
+	 	for (int i = 0; i < 3; i++) {	//give player three tries
 	 		toss = rand.nextInt(2);
 	 		if (toss == 1) {
 	 			successes += 1;			//a successful toss is equal to 1

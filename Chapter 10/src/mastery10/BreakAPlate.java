@@ -32,14 +32,14 @@ BreakAPlate = new GameBooth(0, FIRST_PRIZE, CONSOLATION_PRIZE);
 
 
 
-/* Create and set up the frame */
+/* Create + set up the frame */
 
 frame = new JFrame("BreakAPlate");
 
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 
-/* Create a content pane with a BoxLayout and empty borders */
+/* Create a content pane that has a BoxLayout and empty borders */
 
 contentPane = new JPanel();
 

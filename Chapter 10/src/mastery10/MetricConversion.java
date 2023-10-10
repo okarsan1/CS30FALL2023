@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener; 
  public class MetricConversion extends JFrame { private JLabel resultLabel;
  public MetricConversion() { setTitle("Metric Conversion"); setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); getContentPane().setLayout(new FlowLayout());//set title
- JLabel inputLabel = new JLabel("Enter a number: "); //prompt user to enter number
+ JLabel inputLabel = new JLabel("Enter a number: "); //prompt user to enter a number
  JTextField inputField = new JTextField(10); JLabel conversionLabel = new JLabel("Select a conversion: "); //prompt user for conversion type
  String[] conversions = {"Inches to Centimeters", "Feet to Meters", "Gallons to Liters", "Pounds to Kilograms"}; //show conversions
  JComboBox conversionComboBox = new JComboBox(conversions);
